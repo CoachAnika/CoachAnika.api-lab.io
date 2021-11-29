@@ -3,17 +3,24 @@ body {
     /* padding: 250px; */
 }
 
-h1 {
+h1, dl, form {
 text-align: center;
 }
 
-dl, form {
+/* dl, form {
     margin-left: 800px;
     
-}
+} */
 
-#title {
+dl{
 font-size: 20px;
 font-family: 'Courier New', Courier, monospace;
 }
 
+dt {
+padding: 10px;;
+}
+
+dd {
+    text-align: center;
+}
