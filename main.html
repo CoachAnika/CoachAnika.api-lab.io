@@ -24,13 +24,28 @@
         <![endif]-->
     
 
-        <h1>Total US Debt Outstanding</h1>
-        <dl>
-        <dt>Year: </dt>
-        <dd id="recordDate"></dd>
-        <dt>Debt: </dt>
-        <dd id="debtOut"></dd>
-        </dl>
+        <h1 class="heading">Our Fiscal Debt </h1>
+</body>
+<table id="homes" class="table table-striped">
+    <thead>
+        <tr>
+            
+            <th id="date">Record Date</th>
+            <th id="amount">Amount</th>
+            <!-- <th>Number</th> -->
+        </tr>
+    </thead>
+    <tbody id='dataBody'>
+        <tr>
+
+        </tr>
+    </tbody>
+</table>
+<form>
+    <p>Gen Z? See what debt looked like when you were born.</p>
+    <input id='search' type="text" placeholder="Your Birthdate" />
+    <input type="submit" value="Get Debt Info" />
+</form>
       
     </body>
 </html>
