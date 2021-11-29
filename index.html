@@ -18,32 +18,46 @@
 		></script>
         <script src="js/script.js" async defer></script>
     </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <h1>Movie Info</h1>
+    <body class="containier">
+
+        <!-- MOVIE CODE -->
+        <h1>Movie Search</h1>
         <dl>
         <!-- <dd id="title"></dd> -->
           <dt id="title" >Title:</dt>
-          
-          <dt>Year:</dt>
-          <dd id="year"></dd>
+        <!-- Details About Movies -->
+          <dt>Year:</dt><dd id="year"></dd>
           <dt>Rating:</dt>
           <dd id="rated"></dd>
-          <dt>Rotten Tomatoes Rating:</dt>
-          <dd id="ratings"></dd>
+
+        <!-- Success Metrics for Movies -->  
+          <dt>Metacritic Score:</dt>
+          <dd id="score"></dd>
+          
+          <dt>BoxOffice:</dt>
+          <dd id="money"></dd>
+
+        <!-- Description of Movies --> 
+         <dt>Genre:</dt>
+         <dd id="genre"></dd>
+         
+         <!-- <dt id= "photo"> Poster:</dt>
+         <dd id="poster"></dd>
+         <dt>Plot:</dt>
+         <dd id="plot"></dd> -->
+
+
+
           <!-- <dt>Rating:</dt>
-          <dd id="rated"></dd> -->
+          <dd id="rated"></dd>  -->
           <!-- <dt>Rating:</dt>
           <dd id="rated"></dd> -->
 
-        </dl>
+         </dl>
        
         <form>
             <input type="text" placeholder="Movie Title" />
-            <input type="submit" value="Get Movie Info" />
+            <input type="submit" id="SearchBox" value="Get Movie Info" />
           </form>
         
       

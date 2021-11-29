@@ -1,4 +1,6 @@
 
+//  let randomValue = defaultTitles[Math.floor(Math.random() *defaultTitles.length)]
+     
 async function getMovieData(e) {
     e.preventDefault();
 
@@ -12,10 +14,40 @@ async function getMovieData(e) {
     $("#title").html(data.Title);
     $("#year").html(data.Year);
     $("#rated").html(data.Rated);
-    $("#ratings").html(data.Ratings[1].Value);
+    $("#score").html(((data.Ratings)[2]).Value);
+    $("#money").html(data.BoxOffice); 
+    $("#genre").html(data.Genre); 
+    
 }
 
 $("form").on("submit", getMovieData);
+
+// HOW CAN THE ABOVE CODE BE APPLIED TO SEARCH MOVIES BY GENRE//
+// HOW CAN THE URL MEDIA IMAGE TIED TO POSTERS SHOW UP//
+
+// MORE CODE//
+// $("#plot").html(data.Plot);
+// $("#poster").html(data.Poster);
+//$('#photo').append('<li><img src="data:image/jpeg;base64,'
+//+ result.split(",")[1] +'"/></li>');
+
+
+// How to add images of the poster dynamically
+// $(document).ready(function() {
+//     $('#searchBox').click(function() {
+//        $.ajax({
+//          url : 'DisplayImage',
+//          data : {
+//            opration : 'next',
+//            username : 'user1'
+//          },
+//          success : function(result) {
+//            $('#photo').append('<li><img src="data:image/jpeg;base64,'
+//            + result.split(",")[1] +'"/></li>');
+//          }
+//        });
+//      });
+//    });
 
 //----
 

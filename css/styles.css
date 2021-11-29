@@ -1,0 +1,19 @@
+body {
+    background-color:bisque;
+    /* padding: 250px; */
+}
+
+h1 {
+text-align: center;
+}
+
+dl, form {
+    margin-left: 800px;
+    
+}
+
+#title {
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+}
+
