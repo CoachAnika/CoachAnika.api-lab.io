@@ -44,7 +44,7 @@ async function getRandom(e) {
 	};
 
 	getRandomParam();
-	$('.rmovie').html('Random Movie Info: ' + randomParam);
+	$('.rmovie').html(' ' + randomParam);
 
 };
 
