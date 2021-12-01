@@ -3,7 +3,7 @@ body {
     /* padding: 250px; */
 }
 
-h1, dl, form {
+h1, dl, form, .container{
 text-align: center;
 }
 

@@ -22,44 +22,60 @@
 
         <!-- MOVIE CODE -->
         <h1>Movie Search</h1>
+      
+        <div class="container">
+          <form class="boxOne">
+           <label class="box"></label> 
+             <input type="text" placeholder="Movie Title" />
+             <input type="submit" id="SearchBox" value="Get Movie Info" />
+           </form>
+         </div>
+
+       <div class= movieData>
         <dl>
-        <!-- <dd id="title"></dd> -->
-          <dt id="title" >Title:</dt>
-        <!-- Details About Movies -->
-          <dt>Year:</dt><dd id="year"></dd>
-          <dt>Rating:</dt>
-          <dd id="rated"></dd>
+          <!-- <dd id="title"></dd> -->
+            <dt id="title" >Title:</dt>
+          <!-- Details About Movies -->
+            <dt>Year:</dt><dd id="year"></dd>
+            <dt>Rating:</dt>
+            <dd id="rated"></dd>
+  
+          <!-- Success Metrics for Movies -->  
+            <dt>Metacritic Score:</dt>
+            <dd id="score"></dd>
+            
+            <dt>BoxOffice:</dt>
+            <dd id="money"></dd>
+  
+          <!-- Description of Movies --> 
+           <dt>Genre:</dt>
+           <dd id="genre"></dd>
+           
+           <!-- <dt id= "photo"> Poster:</dt>
+           <dd id="poster"></dd>
+           <dt>Plot:</dt>
+           <dd id="plot"></dd> -->
+  
+  
+  
+            <!-- <dt>Rating:</dt>
+            <dd id="rated"></dd>  -->
+            <!-- <dt>Rating:</dt>
+            <dd id="rated"></dd> -->
+            
+           </dl>
 
-        <!-- Success Metrics for Movies -->  
-          <dt>Metacritic Score:</dt>
-          <dd id="score"></dd>
+       </div>
+      
           
-          <dt>BoxOffice:</dt>
-          <dd id="money"></dd>
-
-        <!-- Description of Movies --> 
-         <dt>Genre:</dt>
-         <dd id="genre"></dd>
+        <div class="container">
          
-         <!-- <dt id= "photo"> Poster:</dt>
-         <dd id="poster"></dd>
-         <dt>Plot:</dt>
-         <dd id="plot"></dd> -->
+           <button class="boxTwo">More Info About Movie</button> 
+            <div class="rmovie">Random Movie Info: </div>
+           
+         </div>
 
-
-
-          <!-- <dt>Rating:</dt>
-          <dd id="rated"></dd>  -->
-          <!-- <dt>Rating:</dt>
-          <dd id="rated"></dd> -->
-
-         </dl>
        
-        <form>
-            <input type="text" placeholder="Movie Title" />
-            <input type="submit" id="SearchBox" value="Get Movie Info" />
-          </form>
-        
       
     </body>
 </html>
