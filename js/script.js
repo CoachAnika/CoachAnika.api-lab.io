@@ -21,6 +21,7 @@ async function getMovieData(e) {
 }
 
 $("form").on("submit", getMovieData);
+// $("form").on("submit", reset ());
 
 async function getRandom(e) {
 	e.preventDefault();
@@ -48,6 +49,7 @@ async function getRandom(e) {
 };
 
 $(".boxTwo").on('click', getRandom);
+
 
 
 // async function getMovieData(e) {
